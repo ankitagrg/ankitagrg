@@ -1,6 +1,7 @@
 import pic1 from "../assets/EcoQuest.png"
-import pic2 from "../assets/VerseMate.png"
-import pic3 from "../assets/planit.png"
+import pic2 from "../assets/planit.png"
+import pic3 from "../assets/VerseMate.png"
+
 
 
 export const fadeinSkills = {
@@ -15,25 +16,25 @@ export const projects = [
   {
     title: "📖 VerseMate",
     description:
-      "The File Summarizer simplifies document analysis by generating concise summaries using OpenAI's model and LangChain.",
+      "VerseMate is a book companion app that helps users discover, organize, and track their reading.It offers book search, custom reading lists, progress tracking, recommendations, and search filters for a seamless reading experience.",
     technologies: "React with vite, Typescript , Tailwind CSS",
     link: "https://github.com/ankitagrg/versemate",
-    date: "Feb 2025",
-    image: pic2,
+    date: "Dec 2024",
+    image: pic3,
   },
   {
     title: "📋 PlanIt",
     description:
-      "The File Summarizer simplifies document analysis by generating concise summaries using OpenAI's model and LangChain.",
-    technologies: "React.js, Tailwind CSS, Firebase",
+      "PlanIt is an intuitive event management platform that simplifies event creation , discovery and participation.It allows users to explore upcoming events, view event details.",
+    technologies: "React.js, Tailwind CSS,Javascript, Firebase",
     link: "https://github.com/ankitagrg/eventify",
     date: "Oct 2024",
-    image: pic3,
+    image: pic2,
   },
   {
     title: "🌍 EcoQuest",
     description:
-      "The File Summarizer simplifies document analysis by generating concise summaries using OpenAI's model and LangChain.",
+      "EcoQuest helps users live a greener lifestyle by offering eco-friendly challenges, tracking carbon footprints, and providing sustainable tips. It empowers people to make choices that benefit the environment. ",
     technologies: "React.js, Node.js with Express, Tailwind CSS, MongoDb",
     link: "https://github.com/ankitagrg/ecoquest-finalproject",
     date: "Aug 2024",

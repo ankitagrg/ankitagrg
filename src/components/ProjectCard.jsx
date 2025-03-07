@@ -22,7 +22,7 @@ const ProjectCard = ({ title, description, link, date, technologies, image }) =>
       </div>
 
       {/* Description */}
-      <p className="text-gray-800 px-4 flex-grow line-clamp-3 md:line-clamp-none">
+      <p className="text-black-800 px-4 flex-grow line-clamp-3 md:line-clamp-none">
         {description}
       </p>
 
