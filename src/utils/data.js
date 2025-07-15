@@ -36,16 +36,17 @@ export const projects = [
     title: "📖 VerseMate",
     description:
       "VerseMate is a book companion app that helps users discover, organize, and track their reading.It offers book search, custom reading lists, progress tracking, recommendations, and search filters for a seamless reading experience.",
-    technologies: "React with vite, Typescript , Tailwind CSS",
+    technologies: "React.js, Typescript , Tailwind CSS",
     link: "https://github.com/ankitagrg/versemate",
     date: "Dec 2024",
     images: [pic3a, pic3b, pic3c],
   },
+  
   {
     title: "📋 PlanIt",
     description:
       "PlanIt is an intuitive event management platform that simplifies event creation , discovery and participation.It allows users to explore upcoming events, view event details.",
-    technologies: "React.js, Tailwind CSS,Javascript, Firebase",
+    technologies: "React.js, Tailwind CSS, Javascript, Firebase",
     link: "https://github.com/ankitagrg/eventify",
     date: "Oct 2024",
     images: [pic2a, pic2b],
