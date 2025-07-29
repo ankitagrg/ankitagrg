@@ -58,20 +58,20 @@ const ProjectCard = ({ title, description, link, date, technologies, images, dem
         />
 
         <div className="px-4">
-          <h3 className="text-[22px] font-bold text-black-800 hover:text-blue-800 hover:underline">
+          <h3 className="text-[22px] font-bold text-black-900 hover:text-blue-800 hover:underline">
             {title}
           </h3>
-          <p className="mt-1 text-sm text-gray-700">{date}</p>
+          <p className="mt-1 text-sm text-black-900">{date}</p>
         </div>
 
-        <p className="text-black-800 px-4 flex-grow line-clamp-3 md:line-clamp-none">
+        <p className="text-black-900 px-4 flex-grow line-clamp-3 md:line-clamp-none">
           {description}
         </p>
 
         <div className="px-4 pb-4">
           <button
             onClick={() => setIsOpen(true)}
-            className="inline-flex items-center text-black-800 hover:text-blue-700 transition-all duration-200 group"
+            className="inline-flex items-center text-black-900 hover:text-blue-900 transition-all duration-200 group"
           >
             View Project
             <span className="ml-1 transform group-hover:translate-x-1 transition-transform duration-200">
