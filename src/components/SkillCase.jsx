@@ -21,7 +21,7 @@ const SkillCase = ({ items }) => {
               src={item.src}
               alt={item.alt}
             />
-            <p className="mt-1 text-xs font-medium text-black-700">{item.alt}</p>
+            <p className="mt-2 font-small  text-black-900">{item.alt}</p>
           </motion.div>
         ))}
       </div>
