@@ -6,18 +6,24 @@ export const GITHUB_URL = "https://github.com/ankitagrg";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/ankita-gurung-97312a2a8/";
 export const MAIL = "ankitagurung43@gmail.com";
 
-
 export const SocialMedia = () => {
   return (
-    <div className="flex space-x-4 mt-4">
-      <IconContext.Provider value={{ size: "24px", className: "text-black-700 hover:text-black transition-transform transform hover:scale-125" }}>
-        <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
+    <div className="flex justify-start items-center gap-2 mt-1">
+     
+      <IconContext.Provider
+        value={{
+          size: "24px",
+          className:
+            "text-black hover:text-black-800 transition-transform duration-300 transform hover:scale-110",
+        }}
+      >
+        <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <BsGithub />
         </a>
-        <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+        <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <BsLinkedin />
         </a>
-        <a href={`mailto:${MAIL}`} target="_blank" rel="noopener noreferrer">
+        <a href={`mailto:${MAIL}`} target="_blank" rel="noopener noreferrer" aria-label="Email">
           <LuMail />
         </a>
       </IconContext.Provider>
