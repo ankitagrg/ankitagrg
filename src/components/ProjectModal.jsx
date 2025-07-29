@@ -17,7 +17,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-3 right-4 text-3xl text-black-600 hover:text-black"
+          className="absolute top-3 right-4 text-3xl text-black-900 hover:text-black"
           aria-label="Close modal"
         >
           &times;
@@ -35,10 +35,10 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
 
         {/* Title & Date */}
         <h2 className="text-3xl font-bold mb-1">{project.title}</h2>
-        <p className="text-base text-black-500 mb-4">{project.date}</p>
+        <p className="text-base text-black-900 mb-4">{project.date}</p>
 
         {/* Description */}
-        <p className="text-black-700 text-[16px] leading-relaxed mb-6">{project.description}</p>
+        <p className="text-black-900 text-[16px] leading-relaxed mb-6">{project.description}</p>
 
         {/* Technologies */}
         <h3 className="text-lg font-semibold mb-2">Technologies Used</h3>
@@ -57,7 +57,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
         {project.impact && (
           <>
             <h3 className="text-lg font-semibold mb-2">Impact</h3>
-            <p className="text-black-600 text-sm mb-6">{project.impact}</p>
+            <p className="text-black-900 text-sm mb-6">{project.impact}</p>
           </>
         )}
 
@@ -67,7 +67,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-black hover:text-black-800 text-3xl"
+            className="text-black hover:text-black-900 text-3xl"
             aria-label="GitHub Repository"
           >
             <FaGithub />
