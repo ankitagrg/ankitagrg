@@ -64,20 +64,45 @@ export const projects = [
 
 ];
 export const skills = [
-  { src: "https://cdn-icons-png.flaticon.com/512/732/732212.png", alt: "HTML" },
-  { src: "https://icons.veryicon.com/png/o/business/office-icon-series/css-3-4.png", alt: "CSS" },
-  { src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg", alt: "Bootstrap 5" },
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg", alt: "Tailwind"},
-  { src: "https://icons.veryicon.com/png/o/application/skills-section/javascript-1.png", alt: "JavaScript" },
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", alt: "TypeScript" },
-  { src: "https://seeklogo.com/images/R/react-logo-65B7CD91B5-seeklogo.com.png", alt: "React" },
-  { src: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg", alt: "Git" },
-  { src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000", alt: "Node.js" },
-  { src: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png", alt: "MongoDB" },
-  { src: "https://cdn-icons-png.flaticon.com/512/919/919853.png", alt: "Docker" },
-  { src: "https://cdn-icons-png.flaticon.com/512/1055/1055687.png", alt: "SEO" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
+    alt: "HTML" },
 
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    alt: "CSS" },
 
-  
+  { src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg", 
+    alt: "Bootstrap 5" },
+
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", 
+    alt: "Tailwind" },
+
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
+    alt: "JavaScript" },
+
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", 
+    alt: "TypeScript" },
+
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+     alt: "React" },
+
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+     alt: "Git" },
+  {
+    src: "https://media.licdn.com/dms/image/v2/D4D12AQF8MwWNbgUZ_g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1697534805076?e=2147483647&v=beta&t=oidQ7KQtMb1CVUj-mRzfSaKSFlAHdvzu4z0FZ1VsU10",
+    alt: "LangChain"
+  },
+  {
+    src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
+    alt: "Node.js",
+  },
+
+  { src: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png", 
+    alt: "MongoDB" },
+
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", 
+    alt: "Docker" },
+
+  { src: "https://cdn-icons-png.flaticon.com/512/6155/6155762.png", 
+    alt: "SEO" },
+,
 ];
-
