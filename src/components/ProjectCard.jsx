@@ -55,7 +55,7 @@ const ProjectCard = ({
         <motion.img
           src={images[currentImage]}
           alt={title}
-          className="w-full h-48 object-contain rounded-t-xl"
+          className="w-full h-48 object-contain "
           initial={{ x: "100%" }}
           animate={{ x: "0%" }}
           transition={{
