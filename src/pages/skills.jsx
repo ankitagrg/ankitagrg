@@ -1,3 +1,4 @@
+import React from "react";
 import PageTitle from "../components/PageTitle";
 import SkillCase from "../components/SkillCase";
 import { skills } from "../utils/data";
