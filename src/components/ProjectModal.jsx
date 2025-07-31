@@ -2,7 +2,17 @@ import PropTypes from "prop-types";
 import { FaGithub } from "react-icons/fa";
 
 const ProjectModal = ({ isOpen, onClose, project }) => {
-  if (!isOpen || !project) return null;
+  if (!isOpen) return null;
+
+  const {
+    images = [],
+    title = "",
+    date = "",
+    description = "",
+    technologies = "",
+    impact = "",
+    link = "#",
+  } = project || {};
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
@@ -17,54 +27,49 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-3 right-4 text-3xl text-black-900 hover:text-black"
+          className="absolute top-3 right-4 text-3xl text-black hover:text-black"
           aria-label="Close modal"
         >
           &times;
         </button>
 
-        {/* Image */}
-        {project.images && project.images[0] && (
+        {images[0] && (
           <img
-            src={project.images[0]}
-            alt={project.title}
+            src={images[0]}
+            alt={title}
             className="rounded-md mb-6 w-full object-contain max-h-[40vh]"
             style={{ maxHeight: "40vh" }}
           />
         )}
 
-        {/* Title & Date */}
-        <h2 className="text-3xl font-bold mb-1">{project.title}</h2>
-        <p className="text-base text-black-900 mb-4">{project.date}</p>
+        <h2 className="text-3xl font-bold mb-1">{title}</h2>
+        <p className="text-base text-black mb-4">{date}</p>
 
-        {/* Description */}
-        <p className="text-black-900 text-[16px] leading-relaxed mb-6">{project.description}</p>
 
-        {/* Technologies */}
-        <h3 className="text-lg font-semibold mb-2">Technologies Used</h3>
-        <div className="flex flex-wrap gap-2 mb-6">
-          {project.technologies.split(",").map((tech) => (
-            <span
-              key={tech}
-              className="bg-blue-100 text-blue-700 px-3 py-1 text-sm rounded-full"
-            >
-              {tech.trim()}
-            </span>
-          ))}
-        </div>
+        <p className="text-black text-[16px] leading-relaxed mb-6">{description}</p>
 
-        {/* Optional Impact */}
-        {project.impact && (
+        {technologies && (
           <>
-            <h3 className="text-lg font-semibold mb-2">Impact</h3>
-            <p className="text-black-900 text-sm mb-6">{project.impact}</p>
+            <h3 className="text-lg font-semibold mb-2">Technologies Used</h3>
+            <div className="flex flex-wrap gap-2 mb-6">
+              {technologies.split(",").map((tech, index) => (
+                <span
+                  key={index}
+                  className="bg-blue-100 text-blue-700 px-3 py-1 text-sm rounded-full"
+                >
+                  {tech.trim()}
+                </span>
+              ))}
+            </div>
           </>
         )}
 
-        {/* Only GitHub Icon */}
+     
+
+        {/* GitHub Link */}
         <div className="mt-6">
           <a
-            href={project.link}
+            href={link}
             target="_blank"
             rel="noopener noreferrer"
             className="text-black hover:text-black-900 text-3xl"
@@ -86,9 +91,9 @@ ProjectModal.propTypes = {
     title: PropTypes.string,
     date: PropTypes.string,
     description: PropTypes.string,
-    technologies: PropTypes.string,
     impact: PropTypes.string,
     link: PropTypes.string,
+    technologies: PropTypes.string,
   }),
 };
 
