@@ -2,13 +2,12 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="p-2 flex justify-between items-center w-full text-black">
-      <div className="flex-1 text-center">
-        <p className="font-normal font-pixel text-sm sm:text-base lg:text-lg text-tertiary">
-        &copy; {new Date().getFullYear()} Ankita. All Rights Reserved
-        </p>
-      </div>
-    </footer>
+<footer className="p-4 text-center text-black w-full mt-10">
+  <p className="text-sm sm:text-base">
+    &copy; {new Date().getFullYear()} Ankita. All Rights Reserved
+  </p>
+</footer>
+
   );
 };
 
