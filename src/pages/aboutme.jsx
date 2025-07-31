@@ -20,15 +20,14 @@ const AboutMe = () => {
       <div id="about" />
       <PageTitle title="ABOUT ME" />
 
-      <main className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <main className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
         <motion.section
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           className="bg-white shadow rounded-lg p-6 transition-transform duration-500 hover:scale-[1.01]"
         >
-          <div className="grid md:grid-cols-2 gap-8 items-start">
-
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             <motion.div
               custom={0.2}
               variants={fadeUp}
@@ -53,21 +52,26 @@ const AboutMe = () => {
                 <h3 className="text-base font-semibold text-black">What I Love</h3>
               </div>
 
-              <p className="text-sm md:text-base font-normal text-black leading-relaxed mt-2 text-left">
+              <p className="text-sm md:text-base font-normal text-black leading-relaxed mt-2">
                 I love crafting user-friendly web experiences and exploring AI to solve real-world problems. Fueled by creativity & curiosity, I enjoy turning ideas into innovative digital solutions. 🚀
               </p>
             </motion.div>
           </div>
         </motion.section>
 
-          <h3 className="font-semibold text-black text-lg mb-1">Connect with me</h3>
-          <SocialMedia />
-  
+        <div className="pt-4">
+          <h3 className="font-semibold text-black text-lg mb-4 text-center md:text-left">Connect with me</h3>
+          <div className="flex justify-center md:justify-start">
+            <SocialMedia />
+          </div>
+        </div>
+
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
           viewport={{ once: true }}
+          className="mt-10"
         >
           <Skills />
         </motion.div>
