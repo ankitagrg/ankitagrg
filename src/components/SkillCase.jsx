@@ -4,7 +4,8 @@ import { fadeinSkills } from "../utils/data";
 const SkillCase = ({ items }) => {
   return (
     <div className="h-max w-full">
-      <div className="mx-auto grid max-w-lg lg:grid-cols-4 grid-cols-4 md:grid-cols-4 items-center gap-x-4 gap-y-14 sm:max-w-xl sm:grid-cols-3 sm:gap-x-8 lg:mx-0 lg:max-w-none">
+      <div className="mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 items-center gap-x-4 gap-y-14">
+
         {items.map((item, index) => (
           <ul key={`alt_${index}`}>
             <motion.li
