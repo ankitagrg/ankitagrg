@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { User, Heart } from "lucide-react";
 import PageTitle from "../components/PageTitle";
 import Skills from "./skills";
+import SocialMedia from "../components/SocialMedia";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -27,31 +28,31 @@ const AboutMe = () => {
           className="bg-white shadow rounded-lg p-6 transition-transform duration-500 hover:scale-[1.01]"
         >
           <div className="grid md:grid-cols-2 gap-8 items-start">
-            {/* Left Column - My Story */}
+
             <motion.div
               custom={0.2}
               variants={fadeUp}
-           className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6">
+              className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6"
+            >
               <div className="flex items-center mb-3">
                 <User className="w-5 h-5 text-blue-600 mr-2" />
                 <h3 className="text-base font-semibold text-black">My Story</h3>
               </div>
               <p className="text-sm md:text-base font-normal text-black leading-relaxed">
-                I’m Ankita, a full-stack developer passionate about turning ideas into clean, functional, and user-friendly digital experiences—from front-end pixels to back-end logic. 
+                I’m Ankita, a full-stack developer passionate about turning ideas into clean, functional, and user-friendly digital experiences—from front-end pixels to back-end logic.
               </p>
             </motion.div>
 
-            {/* Right Column - What I Love */}
             <motion.div
               custom={0.4}
               variants={fadeUp}
-            className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6">
+              className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6"
+            >
               <div className="flex items-center mb-3">
                 <Heart className="w-5 h-5 text-red-500 mr-2" />
                 <h3 className="text-base font-semibold text-black">What I Love</h3>
               </div>
 
-             
               <p className="text-sm md:text-base font-normal text-black leading-relaxed mt-2 text-left">
                 I love crafting user-friendly web experiences and exploring AI to solve real-world problems. Fueled by creativity & curiosity, I enjoy turning ideas into innovative digital solutions. 🚀
               </p>
@@ -59,6 +60,9 @@ const AboutMe = () => {
           </div>
         </motion.section>
 
+          <h3 className="font-semibold text-black text-lg mb-1">Connect with me</h3>
+          <SocialMedia />
+  
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
