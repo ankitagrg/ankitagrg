@@ -4,25 +4,26 @@ import { fadeinSkills } from "../utils/data";
 const SkillCase = ({ items }) => {
   return (
     <div className="h-max w-full">
-      <div className="mx-auto grid max-w-4xl lg:grid-cols-5 grid-cols-2 md:grid-cols-4 items-center gap-x-3 gap-y-6 sm:grid-cols-3 lg:gap-x-4">
+      <div className="mx-auto grid max-w-lg lg:grid-cols-4 grid-cols-4 md:grid-cols-4 items-center gap-x-4 gap-y-14 sm:max-w-xl sm:grid-cols-3 sm:gap-x-8 lg:mx-0 lg:max-w-none">
         {items.map((item, index) => (
-          <motion.div
-            key={index}
-            className="flex flex-col items-center text-center"
-            variants={fadeinSkills}
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-            custom={index}
-            whileHover={{ scale: 1.18 }}
-          >
-            <img
-              className="h-12 w-12 object-contain"
-              src={item.src}
-              alt={item.alt}
-            />
-            <p className="mt-2 font-small  text-black-900">{item.alt}</p>
-          </motion.div>
+          <ul key={`alt_${index}`}>
+            <motion.li
+              variants={fadeinSkills}
+              initial="initial"
+              whileInView="animate"
+              viewport={{ once: true }}
+              custom={index}
+              whileHover={{ scale: 1.3 }}
+              className="flex flex-col items-center"
+            >
+              <img
+                className="col-span-1 max-h-12 w-full object-contain lg:col-span-1"
+                src={item.src}
+                alt={item.alt}
+              />
+              <p className="mt-2 text-center text-sm text-gray-800">{item.alt}</p>
+            </motion.li>
+          </ul>
         ))}
       </div>
     </div>
