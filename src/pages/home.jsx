@@ -1,5 +1,4 @@
 import { motion, AnimatePresence } from "framer-motion";
-import SocialMedia from "../components/SocialMedia";
 import { useState, useEffect } from "react";
 
 const fadeInUp = {
@@ -46,18 +45,19 @@ const Home = () => {
       {/* Removed background gradient */}
 
       <motion.h1
-        variants={fadeInUp}
-        initial="hidden"
-        animate="visible"
-        custom={1}
-        className="text-xl md:text-2xl font-semibold text-black text-center md:text-left mb-2 whitespace-nowrap"
-      >
-        Step inside my digital space —{" "}
-        <span className="text-blue-900">
-          turning ideas into seamless experiences.
-        </span>{" "}
-        <span className="inline-block animate-wave">👩‍💻</span>
-      </motion.h1>
+  variants={fadeInUp}
+  initial="hidden"
+  animate="visible"
+  custom={1}
+  className="text-xl md:text-2xl font-semibold text-black text-center md:text-left mb-2 whitespace-nowrap"
+>
+  Step inside my digital space —{" "}
+  <span className="text-blue-900 ">
+    turning ideas into seamless experiences.{" "}
+  </span>
+  <span className="inline-block animate-wave origin-[70%_70%]">👩‍💻</span>
+</motion.h1>
+
 
       {/* Rotating Tagline */}
       <AnimatePresence mode="wait">
