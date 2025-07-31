@@ -40,26 +40,22 @@ const Home = () => {
   return (
     <motion.section
       id="home"
-      className="relative flex flex-col justify-center items-center md:items-start mt-16 md:mt-24 px-4 md:px-0 max-w-3xl mx-auto font-poppins overflow-hidden"
+      className="relative flex flex-col justify-center items-center md:items-start mt-16 md:mt-24 px-4 sm:px-6 max-w-4xl mx-auto text-center md:text-left"
     >
-      {/* Removed background gradient */}
-
       <motion.h1
-  variants={fadeInUp}
-  initial="hidden"
-  animate="visible"
-  custom={1}
-  className="text-xl md:text-2xl font-semibold text-black text-center md:text-left mb-2 whitespace-nowrap"
->
-  Step inside my digital space —{" "}
-  <span className="text-blue-900 ">
-    turning ideas into seamless experiences.{" "}
-  </span>
-  <span className="inline-block animate-wave origin-[70%_70%]">👩‍💻</span>
-</motion.h1>
+        variants={fadeInUp}
+        initial="hidden"
+        animate="visible"
+        custom={1}
+        className="text-xl md:text-2xl font-semibold text-black text-center md:text-left mb-2 whitespace-nowrap"
+      >
+        Step inside my digital space —{" "}
+        <span className="text-blue-900">
+          turning ideas into seamless experiences.{" "}
+        </span>
+        <span className="inline-block animate-wave origin-[70%_70%]">👩‍💻</span>
+      </motion.h1>
 
-
-      {/* Rotating Tagline */}
       <AnimatePresence mode="wait">
         <motion.p
           key={taglineIndex}
