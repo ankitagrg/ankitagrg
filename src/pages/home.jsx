@@ -47,8 +47,8 @@ const Home = () => {
         initial="hidden"
         animate="visible"
         custom={1}
-        className="text-xl md:text-2xl font-semibold text-black text-center md:text-left mb-2 whitespace-nowrap"
-      >
+        className="text-xl md:text-2xl font-semibold text-black text-center md:text-left mb-2 whitespace-normal">
+
         Step inside my digital space —{" "}
         <span className="text-blue-900">
           turning ideas into seamless experiences.{" "}
