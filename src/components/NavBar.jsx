@@ -27,8 +27,8 @@ const NavBar = () => {
           ))}
         </div>
         <a
-          href="/ANKITAGURUNG_CV.pdf"
-          download="ANKITAGURUNG_CV.pdf"
+          href="/ANKITAGURUNG_CV"
+          download="ANKITAGURUNG_CV"
           className="inline-flex items-center bg-blue-900 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded-md shadow-sm"
         >
           📥 CV
