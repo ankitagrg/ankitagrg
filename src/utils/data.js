@@ -1,17 +1,17 @@
-import pic1a from "../assets/ecoquest.png"
-import pic1b from "../assets/ecoquest_2.png"
-import pic1c from "../assets/ecoquest_3.png"
-import pic2a from "../assets/planit.png"
-import pic2b from "../assets/planit_1.png"
-import pic3a from "../assets/versemate.png"
-import pic3b from "../assets/versemate_2.png"
-import pic3c from "../assets/versemate_3.png"
-import pic4a from "../assets/GWH.png"
-import pic4b from "../assets/GenWriteHub.png"
-import pic4c from "../assets/GWH_history.png"
-import pic5a from "../assets/technicalsewa.png"
-import pic5b from "../assets/technicalsewa1.png"
-import pic5c from "../assets/technicalsewa2.png"
+import pic1a from "../assets/ecoquest.png";
+import pic1b from "../assets/ecoquest_2.png";
+import pic1c from "../assets/ecoquest_3.png";
+import pic2a from "../assets/planit.png";
+import pic2b from "../assets/planit_1.png";
+import pic3a from "../assets/versemate.png";
+import pic3b from "../assets/versemate_2.png";
+import pic3c from "../assets/versemate_3.png";
+import pic4a from "../assets/GWH.png";
+import pic4b from "../assets/GenWriteHub.png";
+import pic4c from "../assets/GWH_history.png";
+import pic5a from "../assets/technicalsewa.png";
+import pic5b from "../assets/technicalsewa1.png";
+import pic5c from "../assets/technicalsewa2.png";
 
 
 export const fadeinSkills = {
