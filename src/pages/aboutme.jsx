@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { User, Heart } from "lucide-react";
+
 import PageTitle from "../components/PageTitle";
 import Skills from "./skills";
 import SocialMedia from "../components/SocialMedia";
