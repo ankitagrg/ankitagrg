@@ -9,7 +9,9 @@ import pic3c from "../assets/versemate_3.png"
 import pic4a from "../assets/GWH.png"
 import pic4b from "../assets/GenWriteHub.png"
 import pic4c from "../assets/GWH_history.png"
-
+import pic5a from "../assets/technicalsewa.png"
+import pic5b from "../assets/technicalsewa1.png"
+import pic5c from "../assets/technicalsewa2.png"
 
 
 
@@ -24,7 +26,16 @@ export const fadeinSkills = {
 };
 export const projects = [
   {
-    title: "📝 GWH",
+    title: " Technical Sewa",
+    description:
+      "Technical Sewa is a Nepal-based service platform dedicated to providing professional repair, maintenance, and after-sales support for a wide range of home appliances and electronic devices. The company offers reliable doorstep services for products such as washing machines, refrigerators, air conditioners, TVs, microwaves, vacuum cleaners, and mobile phones, ensuring quality workmanship through certified technicians and genuine spare parts across major cities in Nepal. ",
+    technologies: "Next.js, TypeScript, TailwindCSS, PHP, MySQL,",
+    link: "https://www.technicalsewa.com/",
+    date: "Jun 2025",
+    images: [pic5a, pic5b, pic5c],
+  },
+  {
+  title: "📝 GWH",
     description:
       "Gen Write Hub is your creative partner for generating engaging content in seconds. Just enter your topic, and it crafts personalized output with tone and keyword precision. ",
     technologies: "React.js , Node.js, Tailwind CSS, Langchain, Groq API, Llama 3",
@@ -36,7 +47,7 @@ export const projects = [
     title: "📖 VerseMate",
     description:
       "VerseMate is a book companion app that helps users discover, organize, and track their reading.It offers book search, custom reading lists, progress tracking, recommendations, and search filters for a seamless reading experience.",
-    technologies: "React.js, Typescript , Tailwind CSS",
+    technologies: "React.js, Typescript , TailwindCSS",
     link: "https://github.com/ankitagrg/versemate",
     date: "Dec 2024",
     images: [pic3a, pic3b, pic3c],
@@ -46,7 +57,7 @@ export const projects = [
     title: "📋 PlanIt",
     description:
       "PlanIt is an intuitive event management platform that simplifies event creation , discovery and participation.It allows users to explore upcoming events, view event details.",
-    technologies: "React.js, Tailwind CSS, Javascript, Firebase",
+    technologies: "React.js, TailwindCSS, Javascript, Firebase",
     link: "https://github.com/ankitagrg/eventify",
     date: "Oct 2024",
     images: [pic2a, pic2b],
@@ -55,7 +66,7 @@ export const projects = [
     title: "🌍 EcoQuest",
     description:
       "EcoQuest helps users live a greener lifestyle by offering eco-friendly challenges, tracking carbon footprints, and providing sustainable tips. It empowers people to make choices that benefit the environment. ",
-    technologies: "React.js, Node.js with Express, Tailwind CSS, MongoDb",
+    technologies: "React.js, Node.js with Express, TailwindCSS, MongoDb",
     link: "https://github.com/ankitagrg/ecoquest-finalproject",
     date: "Aug 2024",
     images: [pic1a, pic1b, pic1c],
