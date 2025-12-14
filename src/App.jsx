@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#f9fafb] text-black font-sans">
       {/* Navbar - usually fixed height, responsive inside */}
-      <NavBar />
+      <NavBar />ms -
 
       {/* Main content area grows to fill available space */}
       <main className="flex-grow w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
