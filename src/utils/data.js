@@ -14,8 +14,6 @@ import pic5b from "../assets/technicalsewa1.png"
 import pic5c from "../assets/technicalsewa2.png"
 
 
-
-
 export const fadeinSkills = {
   initial: { opacity: 0, y: 50 },
   animate: (index) => ({
