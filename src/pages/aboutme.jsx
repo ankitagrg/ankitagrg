@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { User, Heart } from "lucide-react"; 
 
 import PageTitle from "../components/PageTitle";
 import Skills from "./skills";
@@ -28,13 +29,14 @@ const AboutMe = () => {
           className="bg-white shadow rounded-lg p-6 transition-transform duration-500 hover:scale-[1.01]"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            {/* My Story */}
             <motion.div
               custom={0.2}
               variants={fadeUp}
               className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6"
             >
               <div className="flex items-center mb-3">
-                <User className="w-5 h-5 text-blue-600 mr-2" />
+                <User className="w-5 h-5 text-blue-600 mr-2" /> {/* ✅ Fixed */}
                 <h3 className="text-base font-semibold text-black">My Story</h3>
               </div>
               <p className="text-sm md:text-base font-normal text-black leading-relaxed">
@@ -42,16 +44,16 @@ const AboutMe = () => {
               </p>
             </motion.div>
 
+            {/* What I Love */}
             <motion.div
               custom={0.4}
               variants={fadeUp}
               className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6"
             >
               <div className="flex items-center mb-3">
-                <Heart className="w-5 h-5 text-red-500 mr-2" />
+                <Heart className="w-5 h-5 text-red-500 mr-2" /> {/* ✅ Fixed */}
                 <h3 className="text-base font-semibold text-black">What I Love</h3>
               </div>
-
               <p className="text-sm md:text-base font-normal text-black leading-relaxed mt-2">
                 I love crafting user-friendly web experiences and exploring AI to solve real-world problems. Fueled by creativity & curiosity, I enjoy turning ideas into innovative digital solutions. 🚀
               </p>
@@ -59,13 +61,17 @@ const AboutMe = () => {
           </div>
         </motion.section>
 
+        {/* Connect with me */}
         <div className="pt-4">
-          <h3 className="font-semibold text-black text-lg mb-4 text-center md:text-left">Connect with me</h3>
+          <h3 className="font-semibold text-black text-lg mb-4 text-center md:text-left">
+            Connect with me
+          </h3>
           <div className="flex justify-center md:justify-start">
             <SocialMedia />
           </div>
         </div>
 
+        {/* Skills Section */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
