@@ -9,9 +9,9 @@ import pic3c from "../assets/versemate_3.png";
 import pic4a from "../assets/GWH.png";
 import pic4b from "../assets/GenWriteHub.png";
 import pic4c from "../assets/GWH_history.png";
-import pic5a from "../assets/technicalsewa.png";
-import pic5b from "../assets/technicalsewa1.png";
-import pic5c from "../assets/technicalsewa2.png";
+import pic5a from "../assets/technicalsewa_3.png";
+import pic5b from "../assets/technicalsewa_1.png";
+import pic5c from "../assets/technicalsewa_2.png";
 
 
 export const fadeinSkills = {
@@ -26,7 +26,7 @@ export const projects = [
   {
     title: " Technical Sewa",
     description:
-      "Technical Sewa is a Nepal-based service platform dedicated to providing professional repair, maintenance, and after-sales support for a wide range of home appliances and electronic devices. The company offers reliable doorstep services for products such as washing machines, refrigerators, air conditioners, TVs, microwaves, vacuum cleaners, and mobile phones, ensuring quality workmanship through certified technicians and genuine spare parts across major cities in Nepal. ",
+      "Technical Sewa is a Nepal-based service platform providing expert repair, maintenance, and doorstep support for home appliances and electronics, backed by certified technicians and genuine parts across major cities.",
     technologies: "Next.js, TypeScript, TailwindCSS, PHP, MySQL,",
     link: "https://www.technicalsewa.com/",
     date: "Jun 2025",
@@ -73,29 +73,14 @@ export const projects = [
 
 ];
 export const skills = [
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", 
-    alt: "HTML" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    alt: "CSS" },
-
-  { src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg", 
-    alt: "Bootstrap 5" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", 
-    alt: "Tailwind" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", 
-    alt: "JavaScript" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", 
-    alt: "TypeScript" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-     alt: "React" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-     alt: "Git" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt: "HTML" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt: "CSS" },
+  { src: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg", alt: "Bootstrap 5" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", alt: "Tailwind" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", alt: "JavaScript" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", alt: "TypeScript" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", alt: "React" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", alt: "Git" },
   {
     src: "https://media.licdn.com/dms/image/v2/D4D12AQF8MwWNbgUZ_g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1697534805076?e=2147483647&v=beta&t=oidQ7KQtMb1CVUj-mRzfSaKSFlAHdvzu4z0FZ1VsU10",
     alt: "LangChain"
@@ -104,14 +89,7 @@ export const skills = [
     src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
     alt: "Node.js",
   },
-
-  { src: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png", 
-    alt: "MongoDB" },
-
-  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", 
-    alt: "Docker" },
-
-  { src: "https://cdn-icons-png.flaticon.com/512/6155/6155762.png", 
-    alt: "SEO" },
-,
+  { src: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png", alt: "MongoDB" },
+  { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", alt: "Docker" },
+  { src: "https://cdn-icons-png.flaticon.com/512/6155/6155762.png", alt: "SEO" }
 ];
