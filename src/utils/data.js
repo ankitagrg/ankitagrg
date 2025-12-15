@@ -1,23 +1,30 @@
 import pic1a from "../assets/ecoquest.png";
 import pic1b from "../assets/ecoquest_2.png";
 import pic1c from "../assets/ecoquest_3.png";
+
 import pic2a from "../assets/planit.png";
 import pic2b from "../assets/planit_1.png";
+
 import pic3a from "../assets/versemate.png";
 import pic3b from "../assets/versemate_2.png";
 import pic3c from "../assets/versemate_3.png";
+
 import pic4a from "../assets/GWH.png";
 import pic4b from "../assets/GenWriteHub.png";
 import pic4c from "../assets/GWH_history.png";
+
 import pic5a from "../assets/technicalsewa_3.png";
 import pic5b from "../assets/technicalsewa_1.png";
 import pic5c from "../assets/technicalsewa_2.png";
+
 import pic6a from "../assets/Smartcare_1.png";
 import pic6b from "../assets/Smartcare_3.png";
 import pic6c from "../assets/Smartcare_2.png";
+
 import pic7a from "../assets/Rinovix_1.png";
 import pic7b from "../assets/Rinovix_2.png";
 import pic7c from "../assets/Rinovix_3.png";
+
 
 export const fadeinSkills = {
   initial: { opacity: 0, y: 50 },
@@ -27,6 +34,8 @@ export const fadeinSkills = {
     transition: { delay: 0.08 * index, duration: 0.4 },
   }),
 };
+
+
 export const projects = [
   {
     title: "🛠️ Technical Sewa",
@@ -38,9 +47,9 @@ export const projects = [
     images: [pic5a, pic5b, pic5c],
   },
   {
-  title: "📝 GWH",
+    title: "📝 GWH",
     description:
-      "Gen Write Hub is your creative partner for generating engaging content in seconds. Just enter your topic, and it crafts personalized output with tone and keyword precision. ",
+      "Gen Write Hub is your creative partner for generating engaging content in seconds. Just enter your topic, and it crafts personalized output with tone and keyword precision.",
     technologies: "React.js , Node.js, Tailwind CSS, Langchain, Groq API, Llama 3",
     link: "https://github.com/ankitagrg/GenWriteHub",
     date: "Jun 2025",
@@ -50,7 +59,7 @@ export const projects = [
     title: "👩‍💻 Rinovix",
     description:
       "Rinovix provides premium website templates, WordPress themes, plugins, and PHP scripts, enabling beginners and developers to quickly build secure, high-performance websites.",
-    technologies: "Wordpress",
+    technologies: "WordPress",
     link: "https://rinovix.com/",
     date: "Apr 2025",
     images: [pic7a, pic7b, pic7c],
@@ -59,26 +68,24 @@ export const projects = [
     title: "🧰 Smart Care",
     description:
       "SmartCare Nepal provides professional repair, maintenance, and after-sales support for appliances, electronics, and mobile devices, with reliable doorstep service and certified technicians across Nepal.",
-    technologies: "AnugularJS",
+    technologies: "AngularJS",
     link: "https://smartcare.com.np/",
     date: "Mar 2025",
     images: [pic6a, pic6b, pic6c],
   },
-
-    {
+  {
     title: "📖 VerseMate",
     description:
-      "VerseMate is a book companion app that helps users discover, organize, and track their reading.It offers book search, custom reading lists, progress tracking, recommendations, and search filters for a seamless reading experience.",
+      "VerseMate is a book companion app that helps users discover, organize, and track their reading. It offers book search, custom reading lists, progress tracking, recommendations, and search filters for a seamless reading experience.",
     technologies: "React.js, Typescript , TailwindCSS",
     link: "https://github.com/ankitagrg/versemate",
     date: "Dec 2024",
     images: [pic3a, pic3b, pic3c],
   },
-  
   {
     title: "📋 PlanIt",
     description:
-      "PlanIt is an intuitive event management platform that simplifies event creation , discovery and participation.It allows users to explore upcoming events, view event details.",
+      "PlanIt is an intuitive event management platform that simplifies event creation, discovery and participation. It allows users to explore upcoming events, view event details.",
     technologies: "React.js, TailwindCSS, Javascript, Firebase",
     link: "https://github.com/ankitagrg/eventify",
     date: "Oct 2024",
@@ -87,15 +94,15 @@ export const projects = [
   {
     title: "🌍 EcoQuest",
     description:
-      "EcoQuest helps users live a greener lifestyle by offering eco-friendly challenges, tracking carbon footprints, and providing sustainable tips. It empowers people to make choices that benefit the environment. ",
+      "EcoQuest helps users live a greener lifestyle by offering eco-friendly challenges, tracking carbon footprints, and providing sustainable tips. It empowers people to make choices that benefit the environment.",
     technologies: "React.js, Node.js with Express, TailwindCSS, MongoDb",
     link: "https://github.com/ankitagrg/ecoquest-finalproject",
     date: "Aug 2024",
     images: [pic1a, pic1b, pic1c],
   },
-  
-
 ];
+
+// Skills
 export const skills = [
   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt: "HTML" },
   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt: "CSS" },
@@ -105,14 +112,8 @@ export const skills = [
   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", alt: "TypeScript" },
   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", alt: "React" },
   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", alt: "Git" },
-  {
-    src: "https://media.licdn.com/dms/image/v2/D4D12AQF8MwWNbgUZ_g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1697534805076?e=2147483647&v=beta&t=oidQ7KQtMb1CVUj-mRzfSaKSFlAHdvzu4z0FZ1VsU10",
-    alt: "LangChain"
-  },
-  {
-    src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
-    alt: "Node.js",
-  },
+  { src: "https://media.licdn.com/dms/image/v2/D4D12AQF8MwWNbgUZ_g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1697534805076?e=2147483647&v=beta&t=oidQ7KQtMb1CVUj-mRzfSaKSFlAHdvzu4z0FZ1VsU10", alt: "LangChain" },
+  { src: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000", alt: "Node.js" },
   { src: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png", alt: "MongoDB" },
   { src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", alt: "Docker" },
   { src: "https://cdn-icons-png.flaticon.com/512/6155/6155762.png", alt: "SEO" }
