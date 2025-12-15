@@ -24,7 +24,7 @@ export const fadeinSkills = {
 };
 export const projects = [
   {
-    title: " Technical Sewa",
+    title: "🛠️ Technical Sewa",
     description:
       "Technical Sewa is a Nepal-based service platform providing expert repair, maintenance, and doorstep support for home appliances and electronics, backed by certified technicians and genuine parts across major cities.",
     technologies: "Next.js, TypeScript, TailwindCSS, PHP, MySQL,",
