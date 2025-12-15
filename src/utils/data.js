@@ -12,7 +12,12 @@ import pic4c from "../assets/GWH_history.png";
 import pic5a from "../assets/technicalsewa_3.png";
 import pic5b from "../assets/technicalsewa_1.png";
 import pic5c from "../assets/technicalsewa_2.png";
-
+import pic6a from "../assets/Smartcare_1.png";
+import pic6b from "../assets/Smartcare_3.png";
+import pic6c from "../assets/Smartcare_2.png";
+import pic7a from "../assets/Rinovix_1.png";
+import pic7b from "../assets/Rinovix_2.png";
+import pic7c from "../assets/Rinovix_3.png";
 
 export const fadeinSkills = {
   initial: { opacity: 0, y: 50 },
@@ -27,7 +32,7 @@ export const projects = [
     title: "🛠️ Technical Sewa",
     description:
       "Technical Sewa is a Nepal-based service platform providing expert repair, maintenance, and doorstep support for home appliances and electronics, backed by certified technicians and genuine parts across major cities.",
-    technologies: "Next.js, TypeScript, TailwindCSS, PHP, MySQL,",
+    technologies: "Next.js, TypeScript, TailwindCSS, PHP, MySQL",
     link: "https://www.technicalsewa.com/",
     date: "Jun 2025",
     images: [pic5a, pic5b, pic5c],
@@ -41,6 +46,25 @@ export const projects = [
     date: "Jun 2025",
     images: [pic4a, pic4b, pic4c],
   },
+  {
+    title: "👩‍💻 Rinovix",
+    description:
+      "Rinovix provides premium website templates, WordPress themes, plugins, and PHP scripts, enabling beginners and developers to quickly build secure, high-performance websites.",
+    technologies: "Wordpress",
+    link: "https://rinovix.com/",
+    date: "Apr 2025",
+    images: [pic7a, pic7b, pic7c],
+  },
+  {
+    title: "🧰 Smart Care",
+    description:
+      "SmartCare Nepal provides professional repair, maintenance, and after-sales support for appliances, electronics, and mobile devices, with reliable doorstep service and certified technicians across Nepal.",
+    technologies: "AnugularJS",
+    link: "https://smartcare.com.np/",
+    date: "Mar 2025",
+    images: [pic6a, pic6b, pic6c],
+  },
+
     {
     title: "📖 VerseMate",
     description:
