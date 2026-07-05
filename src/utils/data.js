@@ -25,6 +25,10 @@ import pic7a from "../assets/Rinovix_1.png";
 import pic7b from "../assets/Rinovix_2.png";
 import pic7c from "../assets/Rinovix_3.png";
 
+import pic8a from "../assets/Gcesgirls_1.png";
+import pic8b from "../assets/Gcesgirls_2.png";
+import pic8c from "../assets/Gcesgirls_3.png";
+
 
 export const fadeinSkills = {
   initial: { opacity: 0, y: 50 },
@@ -37,6 +41,15 @@ export const fadeinSkills = {
 
 
 export const projects = [
+  {
+    title: "👩‍💻 GCES Girls Tech",
+    description:
+      "GCES Girls Tech GCES Girls Tech is a student-led girls' club at Gandaki College of Engineering and Science (GCES). Founded in 2018 by the 2018 batch girls, the club was created to encourage, support, and inspire girls to explore the world of technology with confidence. ",
+    technologies: "React.js, TailwindCSS, Javascript",
+    link: "https://gcesgirlstech.gceslab.edu.np/",
+    date: "Jun 2026",
+    images: [pic8a, pic8b, pic8c],
+  },
   {
     title: "🛠️ Technical Sewa",
     description:
