@@ -15,6 +15,7 @@ const ProjectModal = ({ isOpen, onClose, project }) => {
 
   // Projects WITHOUT GitHub
   const noGithubProjects = [
+    "👩‍💻 GCES Girls Tech",
     "🛠️ Technical Sewa",
     "👩‍💻 Rinovix",
     "🧰 Smart Care",
