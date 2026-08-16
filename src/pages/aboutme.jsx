@@ -40,7 +40,7 @@ const AboutMe = () => {
                 <h3 className="text-base font-semibold text-black">My Story</h3>
               </div>
               <p className="text-sm md:text-base font-normal text-black leading-relaxed">
-                I’m Ankita, a full-stack developer passionate about turning ideas into clean, functional, and user-friendly digital experiences—from front-end pixels to back-end logic.
+                I’m Ankita, a software developer who enjoys turning ideas into clean, functional, and user-friendly digital experiences. From crafting intuitive interfaces to building reliable back-end systems, I love creating solutions that make a difference.
               </p>
             </motion.div>
 
