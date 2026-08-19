@@ -40,8 +40,12 @@ const Home = () => {
   return (
     <motion.section
       id="home"
-      className="relative flex flex-col justify-center items-center md:items-start mt-16 md:mt-24 px-4 sm:px-6 max-w-4xl mx-auto text-center md:text-left"
+      className="relative flex flex-col justify-center items-center md:items-start mt-20 md:mt-28 px-4 sm:px-6 max-w-4xl mx-auto text-center md:text-left overflow-hidden"
     >
+      {/* Decorative background accent */}
+      <div className="pointer-events-none absolute -z-10 -top-10 -left-16 w-72 h-72 bg-blue-100 rounded-full blur-3xl opacity-60" />
+      <div className="pointer-events-none absolute -z-10 top-0 right-0 w-56 h-56 bg-blue-50 rounded-full blur-3xl opacity-70" />
+
       <motion.h1
         variants={fadeInUp}
         initial="hidden"
@@ -63,7 +67,7 @@ const Home = () => {
           initial="hidden"
           animate="visible"
           exit="exit"
-          className="text-black text-base font-semibold md:text-lg leading-snug max-w-lg text-center md:text-left min-h-[3rem] mt-1"
+          className="text-gray-600 text-base font-medium md:text-lg leading-snug max-w-lg text-center md:text-left min-h-[3rem] mt-1"
         >
           {taglines[taglineIndex]}
         </motion.p>
