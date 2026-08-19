@@ -6,12 +6,13 @@ import ProjectModal from "./ProjectModal";
 const ProjectCard = ({
   title,
   description,
+  fullDescription,
   link,
   date,
   images,
   demo,
   impact,
-  technologies, 
+  technologies,
 }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
@@ -92,13 +93,13 @@ const ProjectCard = ({
         onClose={() => setIsOpen(false)}
         project={{
           title,
-          description,
+          description: fullDescription || description,
           date,
           images,
           link,
           demo,
           impact,
-          technologies, 
+          technologies,
         }}
       />
     </>
@@ -108,6 +109,7 @@ const ProjectCard = ({
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  fullDescription: PropTypes.string,
   link: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(PropTypes.string).isRequired,

@@ -13,6 +13,7 @@ const Portfolio = () => {
             date={project.date}
             title={project.title}
             description={project.description}
+            fullDescription={project.fullDescription}
             link={project.link}
             technologies={project.technologies}
             images={project.images}
