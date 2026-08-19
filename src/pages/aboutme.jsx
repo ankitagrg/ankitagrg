@@ -22,44 +22,43 @@ const AboutMe = () => {
       <PageTitle title="ABOUT ME" />
 
       <main className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-        <motion.section
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-          className="bg-white shadow rounded-lg p-6 transition-transform duration-500 hover:scale-[1.01]"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-            {/* My Story */}
-            <motion.div
-              custom={0.2}
-              variants={fadeUp}
-              className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6"
-            >
-              <div className="flex items-center mb-3">
-                <User className="w-5 h-5 text-blue-600 mr-2" /> {/* ✅ Fixed */}
-                <h3 className="text-base font-semibold text-black">My Story</h3>
-              </div>
-              <p className="text-sm md:text-base font-normal text-black leading-relaxed">
-                I’m Ankita, a software developer who enjoys turning ideas into clean, functional, and user-friendly digital experiences. From crafting intuitive interfaces to building reliable back-end systems, I love creating solutions that make a difference.
-              </p>
-            </motion.div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+          {/* My Story */}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            custom={0.1}
+            variants={fadeUp}
+            className="bg-blue-50 border-l-4 border-blue-600 px-4 py-4 rounded-md shadow-sm"
+          >
+            <div className="flex items-center gap-2 mb-2">
+              <User className="w-4 h-4 text-blue-600" />
+              <h3 className="text-sm font-semibold text-black">My Story</h3>
+            </div>
+            <p className="text-sm text-black leading-relaxed">
+              I'm Ankita, a software developer who transforms ideas into clean, functional, and user-friendly experiences. From designing intuitive interfaces to building reliable back-end systems, I create solutions that deliver lasting impact.
+            </p>
+          </motion.div>
 
-            {/* What I Love */}
-            <motion.div
-              custom={0.4}
-              variants={fadeUp}
-              className="bg-blue-50 border-l-4 border-blue-600 px-4 py-3 rounded-md text-black text-sm md:text-base font-medium shadow-sm mt-4 md:mt-6"
-            >
-              <div className="flex items-center mb-3">
-                <Heart className="w-5 h-5 text-red-500 mr-2" /> {/* ✅ Fixed */}
-                <h3 className="text-base font-semibold text-black">What I Love</h3>
-              </div>
-              <p className="text-sm md:text-base font-normal text-black leading-relaxed mt-2">
-                I love crafting user-friendly web experiences and exploring AI to solve real-world problems. Fueled by creativity & curiosity, I enjoy turning ideas into innovative digital solutions. 🚀
-              </p>
-            </motion.div>
-          </div>
-        </motion.section>
+          {/* What I Love */}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            custom={0.25}
+            variants={fadeUp}
+            className="bg-blue-50 border-l-4 border-blue-600 px-4 py-4 rounded-md shadow-sm"
+          >
+            <div className="flex items-center gap-2 mb-2">
+              <Heart className="w-4 h-4 text-red-500" />
+              <h3 className="text-sm font-semibold text-black">What I Love</h3>
+            </div>
+            <p className="text-sm text-black leading-relaxed">
+              I love building user-friendly web experiences and exploring AI to solve real-world problems. Driven by creativity and curiosity, I enjoy turning ambitious ideas into innovative, meaningful digital solutions that inspire.
+            </p>
+          </motion.div>
+        </div>
 
         {/* Connect with me */}
         <div className="pt-4">
