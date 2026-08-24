@@ -64,7 +64,7 @@ export const projects = [
     description:
       "An AI-powered mock interview platform that scores spoken or typed answers locally using semantic embeddings, TF-IDF, sentiment analysis.",
     fullDescription:
-      "INTA is an AI-powered mock interview platform built for a final-year software engineering project. It evaluates typed or voice answers locally using TF-IDF, transformer embeddings, sentiment analysis, and keyword extraction, with no paid API required.",
+      "INTA is an AI-powered mock interview platform. It evaluates typed or voice answers locally using TF-IDF, transformer embeddings, sentiment analysis, and keyword extraction, with no paid API required.",
     technologies: "React.js, TailwindCSS, Node.js, Express.js, MongoDB, Whisper, Transformers.js",
     link: "https://github.com/ankitagrg/INTA",
     date: "Aug 2026",
