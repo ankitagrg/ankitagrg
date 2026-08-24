@@ -2,8 +2,10 @@ import pic1a from "../assets/ecoquest.png";
 import pic1b from "../assets/ecoquest_2.png";
 import pic1c from "../assets/ecoquest_3.png";
 
-import pic2a from "../assets/planit.png";
-import pic2b from "../assets/planit_1.png";
+import pic2a from "../assets/movemetric_1.png";
+import pic2b from "../assets/movemetric_2.png";
+import pic2c from "../assets/movemetric_3.png";
+import pic2d from "../assets/movemetric_4.png";
 
 import pic3a from "../assets/versemate.png";
 import pic3b from "../assets/versemate_2.png";
@@ -46,6 +48,17 @@ export const fadeinSkills = {
 
 
 export const projects = [
+  {
+    title: "📈 MoveMetric",
+    description:
+      "A computer-vision platform for movement professionals that tracks a client's joint angles from webcam video during exercises, logging objective, dated metrics per client.",
+    fullDescription:
+      "MoveMetric helps movement professionals objectively track how a client's exercise form changes over time. It uses real-time webcam pose detection to measure joint angles, auto-detect reps, and log dated metrics with trend charts and heuristic A-F grading.",
+    technologies: "React.js, TailwindCSS, MediaPipe (Computer Vision), Supabase",
+    link: "https://github.com/ankitagrg/MoveMetric",
+    date: "Aug 2026",
+    images: [pic2a, pic2b, pic2c, pic2d],
+  },
   {
     title: "💼 INTA",
     description:
@@ -122,17 +135,6 @@ export const projects = [
     link: "https://github.com/ankitagrg/versemate",
     date: "Dec 2024",
     images: [pic3a, pic3b, pic3c],
-  },
-  {
-    title: "📋 PlanIt",
-    description:
-      "An intuitive event management platform that simplifies creating, discovering, and participating in upcoming events with full event details.",
-    fullDescription:
-      "PlanIt is an intuitive event management platform that simplifies event creation, discovery, and participation. Users can explore upcoming events, view detailed event information, and manage registrations, making event planning effortless from start to finish.",
-    technologies: "React.js, TailwindCSS, Javascript, Firebase",
-    link: "https://github.com/ankitagrg/eventify",
-    date: "Oct 2024",
-    images: [pic2a, pic2b],
   },
   {
     title: "🌍 EcoQuest",
