@@ -28,8 +28,8 @@ const NavBar = () => {
           ))}
         </div>
         <a
-          href="/ANKITA_GURUNG_cv.pdf"
-          download="ANKITA_GURUNG_cv.pdf"
+          href="/ANKITAGURUNG_cv.pdf"
+          download="ANKITAGURUNG_cv.pdf"
           className="inline-flex items-center gap-1 bg-blue-900 hover:bg-blue-700 text-white text-xs sm:text-sm font-medium px-2 py-1.5 sm:px-4 sm:py-2 rounded-md shadow-sm shrink-0"
         >
           <span>📥</span>
