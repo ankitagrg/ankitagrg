@@ -35,6 +35,10 @@ import pic9a from "../assets/Inta_1.png";
 import pic9b from "../assets/Inta_2.png";
 import pic9c from "../assets/Inta_3.png";
 
+import pic10a from "../assets/Yummy_1.png";
+import pic10b from "../assets/Yummy_2.png";
+import pic10c from "../assets/Yummy_3.png";
+
 
 
 export const fadeinSkills = {
@@ -48,6 +52,17 @@ export const fadeinSkills = {
 
 
 export const projects = [
+  {
+    title: "YummyEver",
+    description:
+      "An all-in-one restaurant POS and management platform for billing, inventory, QR menus, and order management.",
+    fullDescription:
+     "YummyEver is a restaurant POS and management platform designed to simplify billing, inventory, orders, and digital menu management. It provides QR-based menus, KOT management, pricing, and other tools to help restaurants manage daily operations efficiently.",
+    technologies: "Next.js, Fast API",
+    link: "https://www.yummyever.com/",
+    date: "Jun 2025",
+    images: [pic10a, pic10b, pic10c],
+  },
   {
     title: "📈 MoveMetric",
     description:
