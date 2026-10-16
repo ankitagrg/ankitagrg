@@ -7,25 +7,18 @@ import pic2b from "../assets/movemetric_2.png";
 import pic2c from "../assets/movemetric_3.png";
 import pic2d from "../assets/movemetric_4.png";
 
-import pic3a from "../assets/versemate.png";
-import pic3b from "../assets/versemate_2.png";
-import pic3c from "../assets/versemate_3.png";
+import pic3a from "../assets/GWH.png";
+import pic3b from "../assets/GenWriteHub.png";
+import pic3c from "../assets/GWH_history.png";
 
-import pic4a from "../assets/GWH.png";
-import pic4b from "../assets/GenWriteHub.png";
-import pic4c from "../assets/GWH_history.png";
 
-import pic5a from "../assets/technicalsewa_3.png";
-import pic5b from "../assets/technicalsewa_1.png";
-import pic5c from "../assets/technicalsewa_2.png";
+import pic4a from "../assets/Teamsever1.png";
+import pic4b from "../assets/Teamsever2.png";
+import pic4c from "../assets/Teamsever3.png";
 
-import pic6a from "../assets/Smartcare_1.png";
-import pic6b from "../assets/Smartcare_3.png";
-import pic6c from "../assets/Smartcare_2.png";
-
-import pic7a from "../assets/Rinovix_1.png";
-import pic7b from "../assets/Rinovix_2.png";
-import pic7c from "../assets/Rinovix_3.png";
+import pic6a from "../assets/Smartcare1.png";
+import pic6b from "../assets/Smartcare2.png";
+import pic6c from "../assets/Smartcare3.png";
 
 import pic8a from "../assets/Gcesgirls_1.png";
 import pic8b from "../assets/Gcesgirls_2.png";
@@ -59,18 +52,18 @@ export const projects = [
     date: "Aug 2026",
     images: [pic2a, pic2b, pic2c, pic2d],
   },
-  {
-    title: "💼 INTA",
+      {
+    title: "📋 TeamsEver",
     description:
-      "An AI-powered mock interview platform that scores spoken or typed answers locally using semantic embeddings, TF-IDF, sentiment analysis.",
+      "A team management that helps teams organize workspaces, manage tasks, coordinate collaboration, and track project progress through an intuitive dashboard.",
     fullDescription:
-      "INTA is an AI-powered mock interview platform. It evaluates typed or voice answers locally using TF-IDF, transformer embeddings, sentiment analysis, and keyword extraction, with no paid API required.",
-    technologies: "React.js, TailwindCSS, Node.js, Express.js, MongoDB, Whisper, Transformers.js",
-    link: "https://github.com/ankitagrg/INTA",
-    date: "Aug 2026",
-    images: [pic9a, pic9b, pic9c],
+      "TeamsEver streamlines team workflows with workspace management, task assignment, role-based access, and progress tracking. Its responsive dashboard provides key insights and analytics through a clean, user-friendly interface.",
+    technologies: "Next.js, TailwindCSS, Firebase",
+    link: "https://teamsever.everacy.com/",
+    date: "May 2026",
+    images: [pic4a, pic4b, pic4c],
   },
-  {
+    {
     title: "👩‍💻 GCES Girls Tech",
     description:
       "A student-led club at Gandaki College of Engineering and Science empowering girls to explore technology through hands-on workshops.",
@@ -82,38 +75,17 @@ export const projects = [
     images: [pic8a, pic8b, pic8c],
   },
   {
-    title: "🛠️ Technical Sewa",
+    title: "💼 INTA",
     description:
-      "A Nepal-based platform delivering expert repair, maintenance, and doorstep support for home appliances through certified, trusted technicians nationwide.",
+      "An AI-powered mock interview platform that scores spoken or typed answers locally using semantic embeddings, TF-IDF, sentiment analysis.",
     fullDescription:
-      "Technical Sewa is a Nepal-based service platform offering expert repair, maintenance, and doorstep support for home appliances and electronics. Backed by certified technicians and genuine parts, it delivers reliable service across major cities in Nepal.",
-    technologies: "Next.js, TypeScript, TailwindCSS, PHP, MySQL",
-    link: "https://www.technicalsewa.com/",
-    date: "Jun 2025",
-    images: [pic5a, pic5b, pic5c],
+      "INTA is an AI-powered mock interview platform. It evaluates typed or voice answers locally using TF-IDF, transformer embeddings, sentiment analysis, and keyword extraction, with no paid API required.",
+    technologies: "React.js, TailwindCSS, Node.js, Express.js, MongoDB, Whisper, Transformers.js",
+    link: "https://github.com/ankitagrg/INTA",
+    date: "Aug 2026",
+    images: [pic9a, pic9b, pic9c],
   },
-  {
-    title: "📝 GWH",
-    description:
-      "An AI-powered content generator that crafts personalized, keyword-driven, tone-specific writing instantly from just a single topic in seconds.",
-    fullDescription:
-      "Gen Write Hub is an AI-powered writing companion that generates engaging, personalized content in seconds. Simply enter a topic, and it crafts tailored output with precise tone and keyword optimization, streamlining content creation for any use case.",
-    technologies: "React.js , Node.js, Tailwind CSS, Langchain, Groq API, Llama 3",
-    link: "https://github.com/ankitagrg/GenWriteHub",
-    date: "Jun 2025",
-    images: [pic4a, pic4b, pic4c],
-  },
-  {
-    title: "👩‍💻 Rinovix",
-    description:
-      "A marketplace offering premium website templates, WordPress themes, plugins, and PHP scripts for quickly building secure, high-performance websites.",
-    fullDescription:
-      "Rinovix is a digital marketplace offering premium website templates, WordPress themes, plugins, and PHP scripts. It enables both beginners and experienced developers to quickly build secure, high-performance websites without starting from scratch.",
-    technologies: "WordPress",
-    link: "https://rinovix.com/",
-    date: "Apr 2025",
-    images: [pic7a, pic7b, pic7c],
-  },
+ 
   {
     title: "🧰 Smart Care",
     description:
@@ -124,17 +96,6 @@ export const projects = [
     link: "https://smartcare.com.np/",
     date: "Mar 2025",
     images: [pic6a, pic6b, pic6c],
-  },
-  {
-    title: "📖 VerseMate",
-    description:
-      "A book companion app for discovering, organizing, and tracking your reading progress with personalized recommendations and search filters.",
-    fullDescription:
-      "VerseMate is a book companion app that helps readers discover, organize, and track their reading journey. It offers book search, custom reading lists, progress tracking, personalized recommendations, and advanced filters for a seamless reading experience.",
-    technologies: "React.js, Typescript , TailwindCSS",
-    link: "https://github.com/ankitagrg/versemate",
-    date: "Dec 2024",
-    images: [pic3a, pic3b, pic3c],
   },
   {
     title: "🌍 EcoQuest",
